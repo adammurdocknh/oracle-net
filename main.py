@@ -1,4 +1,5 @@
-import numpy
+import numpy as np
+import sys
 # import keras
 from keras.models import Sequential
 from keras.layers import Dense
@@ -6,12 +7,17 @@ from keras.layers import Dense
 # import keras.layers
 
 print('done')
+print("python:")
+print(sys.version)
 
-dataset = numpy.load('./sheets/lcs_2020_summer_player_stats_oracleselixir_scaled.npy')
+dataset = np.load('./sheets/lcs_2020_summer_player_stats_oracleselixir_scaled.npy')
 # dataset = numpy.loadtxt('./sheets/lcs_2020_summer_player_stats_oracleselixir_scaled.csv',delimiter=',')
+
+print(dataset.shape)
 
 X = dataset[:,0:24]
 Y = dataset[:,24]
+
 
 model = Sequential()
 

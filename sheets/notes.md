@@ -8,7 +8,6 @@ Data collected from https://oracleselixir.com/
 |-----------------------	|:------------------------------------------:	|
 | pos                   	| 1 = top, 2 = jg, 3 = mid, 4 = bot, 5 = sup 	|
 | games played          	| integers                                   	|
-| win %                 	| .67                                        	|
 | counter pick rate     	| .67                                        	|
 | season kills          	| integers                                   	|
 | season deaths         	| integers                                   	|
@@ -28,5 +27,7 @@ Data collected from https://oracleselixir.com/
 | gold share            	| .19                                        	|
 | wards per min         	| .48                                        	|
 | wards cleared per min 	| .4                                         	|
+| win %                 	| .67                                        	|
+
 
 **Stats represented in .np file:**
